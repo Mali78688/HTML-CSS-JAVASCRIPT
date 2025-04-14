@@ -22,3 +22,27 @@ return minutes * 60;
 
 }
 console.log(toSeconds(60))
+
+
+var shkolla = {
+name:"Shkolla Digitale",
+viti_ndertimit:"2002"
+nxenesit:"2000"
+};
+
+alert(shkolla.viti_ndertimit)
+
+var computer = new Objeck();
+computer.name = "lenovo";
+computer.CPU = "intel core";
+computer.RAM = "16GB"
+
+computer.type = function () {
+
+    return this.name + " " + this.CPU + " " + this.RAM;
+
+}
+
+alert (computer.CPU)
+
+
