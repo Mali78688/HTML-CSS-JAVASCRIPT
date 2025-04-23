@@ -32,7 +32,11 @@ v_text.style.textAlign= 'center';
 
 
 }  
+v_text.onclick = function() {
 
+v_text.setAttribute('class',"text");
+
+}
 
 
 // var firstButton = document.querySelector('button');
